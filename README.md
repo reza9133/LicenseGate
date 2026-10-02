@@ -86,6 +86,14 @@ test/
 README.md
 ```
 
+## Deployed contracts
+
+| Contract | Address |
+|---|---|
+| `LicensePolicy` | `0x262C5B62a36a82Aa17B24341c8A96dAB640b8901` |
+| `PackageAuditor` (built on LicensePolicy) | `0x5335405C0356aA50ca2C0cC70e12Bd4114751e1F` |
+| `ReleaseGate` (built on PackageAuditor) | `0x98c9F68604e6A9B4e79e40B04bF6F2B46fF77613` |
+
 ## Deploy on Studionet
 
 Studionet is the hosted development network, so nothing needs to be installed.
